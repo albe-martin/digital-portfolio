@@ -433,3 +433,61 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+/*babybloom project page*/
+#project-page {
+    padding: 4rem 10rem;
+    text-align: center;
+}
+
+.project-description {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    color: rgb(85, 85, 85);
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1rem 0;
+  }
+  
+  .gallery .project-img {
+    width: 280px;
+    height: auto;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+
+.video-description {
+    text-align: center;
+    margin-top: 4rem;
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+.video-description h2.video-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.video-description p {
+    color: rgb(85, 85, 85);
+    font-size: 1.2rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
